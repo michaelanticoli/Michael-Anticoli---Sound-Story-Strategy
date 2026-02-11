@@ -1,6 +1,6 @@
 import { AudioUploadAdmin } from "../components/AudioUploadAdmin";
 import { ImageUploadAdmin } from "../components/ImageUploadAdmin";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { ArrowLeft, Music, Image as ImageIcon } from "lucide-react";
 import { motion } from "motion/react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";

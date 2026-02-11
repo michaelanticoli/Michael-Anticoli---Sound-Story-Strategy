@@ -18,7 +18,7 @@ import {
   Settings,
 } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { projectId, publicAnonKey } from "../utils/supabase/info";
 
 export default function Portfolio() {
