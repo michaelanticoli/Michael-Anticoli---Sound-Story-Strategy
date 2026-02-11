@@ -1,17 +1,6 @@
-import Portfolio from "./pages/Portfolio";
-import AudioAdmin from "./pages/AudioAdmin";
-import AudioDebugPage from "./pages/AudioDebugPage";
+import { RouterProvider } from "react-router";
+import { router } from "./routes";
 
 export default function App() {
-  const path = window.location.pathname;
-
-  if (path.startsWith("/admin/audio")) {
-    return <AudioAdmin />;
-  }
-
-  if (path.startsWith("/debug")) {
-    return <AudioDebugPage />;
-  }
-
-  return <Portfolio />;
+  return <RouterProvider router={router} />;
 }
