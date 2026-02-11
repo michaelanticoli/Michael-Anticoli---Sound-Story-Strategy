@@ -6,8 +6,10 @@ node_modules/
 # Testing
 coverage/
 
-# Production builds (keep for GitHub Pages deployment)
-# build/ - Intentionally not ignored since we need it for GitHub Pages
+# Production builds
+# Note: GitHub Actions workflow builds fresh artifacts on each deployment,
+# but we keep build/ in the repo for reference. You can add build/ to .gitignore
+# if you prefer not to commit built artifacts.
 
 # Misc
 .DS_Store
