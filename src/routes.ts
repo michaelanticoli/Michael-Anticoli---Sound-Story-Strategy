@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import AudioAdmin from "./pages/AudioAdmin";
 import AudioDebugPage from "./pages/AudioDebugPage";
